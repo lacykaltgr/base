@@ -10,4 +10,8 @@ public interface TrainUser {
 
 	void pullEmergencyBreak();
 
+	public boolean getAlarmState();
+
+	public void setAlarmState(boolean alarmState);
+
 }
