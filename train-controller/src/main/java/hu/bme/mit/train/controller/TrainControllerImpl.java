@@ -68,7 +68,7 @@ public class TrainControllerImpl implements TrainController {
 					followSpeed();
 					Thread.sleep(1000);
 				} catch (InterruptedException e) {
-					
+					System.out.println("Exception in thread!!!!!!");
 				}
 				
 			}	
